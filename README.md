@@ -69,4 +69,4 @@ Catatan:
 Proyek ini dibuat khusus untuk keperluan akademik dan pembelajaran SQL, tanpa membahas antarmuka pengguna maupun aspek keamanan sistem secara mendalam.
 
 Dosen Pengampu:
-Ridwan Dwi Irawan, S.Kom., M.Kom.
+ridwan_dwiirawan@udb.ac.id
