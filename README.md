@@ -4,7 +4,7 @@ Deskripsi Proyek
 Repository ini berisi proyek Ujian Akhir Semester (UAS) mata kuliah Pemrograman Basis Data dengan studi kasus Sistem Nota Transaksi Coffee Shop.
 Proyek ini bertujuan untuk merancang dan mengimplementasikan basis data relasional yang digunakan dalam proses pencatatan transaksi penjualan pada coffee shop. Implementasi dilakukan menggunakan MySQL dengan penerapan konsep Entity Relationship Diagram (ERD), normalisasi hingga 3NF, serta penggunaan query SQL lanjutan.
 
-Tujuan Proyek
+A. Tujuan Proyek
 Tujuan dari proyek Nota Coffee Shop ini adalah:
 1. Menerapkan konsep dasar Pemrograman Basis Data dalam studi kasus nyata
 2. Merancang struktur database yang terstruktur dan ter-normalisasi hingga 3NF
