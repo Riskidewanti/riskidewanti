@@ -39,11 +39,17 @@ Proyek Nota Coffee Shop ini dikembangkan dengan tujuan:
 Database yang digunakan bernama dbnota, terdiri dari tabel-tabel utama berikut:
 
 Tabel	Deskripsi
+
 📦 barang	Menyimpan data makanan dan minuman
+
 🍽️ layanan	Menyimpan jenis layanan (Dine In, Take Away, dll)
+
 👩‍🍳 waitress	Menyimpan data pelayan
+
 🧾 transaksi	Menyimpan data transaksi penjualan
+
 📄 detail_transaksi	Menyimpan detail item pada setiap transaksi
+
 🔗 Relasi Antar Tabel
 
 Relasi dalam sistem Nota Coffee Shop dirancang sebagai berikut:
@@ -59,41 +65,32 @@ Relasi dalam sistem Nota Coffee Shop dirancang sebagai berikut:
 📌 Seluruh relasi dibangun menggunakan Primary Key dan Foreign Key sesuai dengan desain ERD.
 
 💻 Materi SQL yang Diterapkan
+
 🏗️ Data Definition Language (DDL)
 
-CREATE DATABASE
-
-CREATE TABLE
-
-PRIMARY KEY
-
-FOREIGN KEY
+1. CREATE DATABASE
+2. CREATE TABLE
+3. PRIMARY KEY
+4. FOREIGN KEY
 
 ✏️ Data Manipulation Language (DML)
 
-INSERT
-
-SELECT
-
-UPDATE
-
-DELETE
+1. INSERT
+2. SELECT
+3. UPDATE
+4. DELETE
 
 🔁 Transaction Control Language (TCL)
 
-START TRANSACTION
-
-COMMIT
-
-ROLLBACK
+1. START TRANSACTION
+2. COMMIT
+3. ROLLBACK
 
 📊 Query SQL Lanjutan
 
-JOIN (Inner Join, Left Join, Right Join)
-
-GROUP BY
-
-HAVING
+1. JOIN (Inner Join, Left Join, Right Join)
+2. GROUP BY
+3. HAVING
 
 Fungsi agregasi: COUNT(), SUM()
 
