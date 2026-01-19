@@ -128,6 +128,7 @@ Repository GitHub digunakan sebagai pusat dokumentasi proyek yang berisi:
 ⚠️ Catatan Penting
 
 📌 Proyek ini dibuat khusus untuk keperluan akademik dan pembelajaran SQL.
+
 📌 Tidak membahas antarmuka pengguna (UI) maupun keamanan sistem secara mendalam.
 
 👨‍🏫 Dosen Pengampu
