@@ -2,136 +2,26 @@
 
 📄 Sistem Nota Transaksi Coffee Shop
 
-
-
-🚀 Deskripsi Proyek
-
-Repository ini merupakan proyek Ujian Akhir Semester (UAS) mata kuliah Pemrograman Basis Data dengan studi kasus Sistem Nota Transaksi Coffee Shop.
-
-Proyek ini berfokus pada perancangan dan implementasi basis data relasional yang digunakan untuk mencatat transaksi penjualan pada coffee shop secara terstruktur, akurat, dan terorganisir.
-
-Seluruh implementasi dilakukan menggunakan MySQL, dengan menerapkan:
-
 📐 Entity Relationship Diagram (ERD)
 
-🧩 Normalisasi database hingga 3NF
+ERD digunakan untuk menggambarkan struktur database serta hubungan antar entitas yang ada pada sistem Nota Coffee Shop. Diagram ini menjadi dasar dalam proses normalisasi dan pembuatan tabel pada database.
 
-⚙️ Query SQL lanjutan untuk analisis data transaksi
+![ERD](Assets/ERD.png)
 
-🎯 Tujuan Proyek
+📌 Entitas Utama dalam ERD
 
-Proyek Nota Coffee Shop ini dikembangkan dengan tujuan:
+1. barang
+2. layanan
+3. waitress
+4. transaksi
+5. detail_transaksi
 
-☑️ Mengimplementasikan konsep Pemrograman Basis Data dalam kasus nyata
+Setiap entitas memiliki Primary Key (PK) dan saling terhubung menggunakan Foreign Key (FK) sesuai kebutuhan sistem.
 
-☑️ Merancang database yang rapi, konsisten, dan ter-normalisasi (3NF)
+🔗 Relasi Antar Tabel (Detail)
 
-☑️ Menggunakan DDL, DML, dan TCL secara tepat
+Relasi antar tabel dirancang untuk memastikan integritas data dan menghindari redundansi.
 
-☑️ Menerapkan Primary Key & Foreign Key dalam relasi antar tabel
+![RELASI ANTAR TABEL](Assets/RELASI ANTAR TABEL.draw.io.png) 
 
-☑️ Mengolah data menggunakan JOIN, GROUP BY, HAVING, dan fungsi agregasi
 
-☑️ Menjadi media pembelajaran akademik dalam memahami database relasional
-
-🗄️ Struktur Database
-
-Database yang digunakan bernama dbnota, terdiri dari tabel-tabel utama berikut:
-
-Tabel	Deskripsi
-
-📦 barang	Menyimpan data makanan dan minuman
-
-🍽️ layanan	Menyimpan jenis layanan (Dine In, Take Away, dll)
-
-👩‍🍳 waitress	Menyimpan data pelayan
-
-🧾 transaksi	Menyimpan data transaksi penjualan
-
-📄 detail_transaksi	Menyimpan detail item pada setiap transaksi
-
-🔗 Relasi Antar Tabel
-
-Relasi dalam sistem Nota Coffee Shop dirancang sebagai berikut:
-
-🔹 Barang → Detail_Transaksi : One to Many (1:N)
-
-🔹 Transaksi → Detail_Transaksi : One to Many (1:N)
-
-🔹 Waitress → Transaksi : One to Many (1:N)
-
-🔹 Layanan → Transaksi : One to Many (1:N)
-
-📌 Seluruh relasi dibangun menggunakan Primary Key dan Foreign Key sesuai dengan desain ERD.
-
-💻 Materi SQL yang Diterapkan
-
-🏗️ Data Definition Language (DDL)
-
-1. CREATE DATABASE
-2. CREATE TABLE
-3. PRIMARY KEY
-4. FOREIGN KEY
-
-✏️ Data Manipulation Language (DML)
-
-1. INSERT
-2. SELECT
-3. UPDATE
-4. DELETE
-
-🔁 Transaction Control Language (TCL)
-
-1. START TRANSACTION
-2. COMMIT
-3. ROLLBACK
-
-📊 Query SQL Lanjutan
-
-1. JOIN (Inner Join, Left Join, Right Join)
-2. GROUP BY
-3. HAVING
-
-Fungsi agregasi: COUNT(), SUM()
-
-🛠️ Tools yang Digunakan
-
-🐬 MySQL
-
-🧰 MySQL Workbench
-
-🌐 phpMyAdmin
-
-📁 GitHub
-
-▶️ Cara Menjalankan Proyek
-
-1️⃣ Buka MySQL Workbench
-
-2️⃣ Jalankan script SQL untuk membuat database dan tabel
-
-3️⃣ Pastikan database dbnota berhasil dibuat
-
-4️⃣ Jalankan query DML dan query lanjutan
-
-5️⃣ Verifikasi data menggunakan phpMyAdmin
-
-📂 Repository GitHub
-
-Repository GitHub digunakan sebagai pusat dokumentasi proyek yang berisi:
-
-📄 Script SQL
-
-📐 Entity Relationship Diagram (ERD)
-
-📊 Hasil implementasi query
-
-⚠️ Catatan Penting
-
-📌 Proyek ini dibuat khusus untuk keperluan akademik dan pembelajaran SQL.
-
-📌 Tidak membahas antarmuka pengguna (UI) maupun keamanan sistem secara mendalam.
-
-👨‍🏫 Dosen Pengampu
-
-📧 ridwan_dwiirawan@udb.ac.id
