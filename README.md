@@ -110,9 +110,13 @@ Fungsi agregasi: COUNT(), SUM()
 ▶️ Cara Menjalankan Proyek
 
 1️⃣ Buka MySQL Workbench
+
 2️⃣ Jalankan script SQL untuk membuat database dan tabel
+
 3️⃣ Pastikan database dbnota berhasil dibuat
+
 4️⃣ Jalankan query DML dan query lanjutan
+
 5️⃣ Verifikasi data menggunakan phpMyAdmin
 
 📂 Repository GitHub
