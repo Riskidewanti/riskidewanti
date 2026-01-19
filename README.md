@@ -22,6 +22,6 @@ Setiap entitas memiliki Primary Key (PK) dan saling terhubung menggunakan Foreig
 
 Relasi antar tabel dirancang untuk memastikan integritas data dan menghindari redundansi.
 
-![RELASI ANTAR TABEL](Assets/RELASI ANTAR TABEL.draw.io.png) 
+![RELASI ANTAR TABEL](Assets/RELASI ANTAR TABEL.drawio.png) 
 
 
