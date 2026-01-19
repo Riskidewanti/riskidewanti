@@ -1,63 +1,62 @@
-📌 UAS Pemrograman Basis Data
+☕✨ UAS Pemrograman Basis Data
 
-☕ Sistem Nota Coffee Shop
+📄 Sistem Nota Transaksi Coffee Shop
 
-📝 Deskripsi Proyek
 
-Repository ini berisi proyek Ujian Akhir Semester (UAS) mata kuliah Pemrograman Basis Data dengan studi kasus Sistem Nota Transaksi Coffee Shop.
 
-Proyek ini bertujuan untuk merancang dan mengimplementasikan basis data relasional yang digunakan dalam proses pencatatan transaksi penjualan pada coffee shop.
-Implementasi dilakukan menggunakan MySQL dengan penerapan konsep:
+🚀 Deskripsi Proyek
 
-Entity Relationship Diagram (ERD)
+Repository ini merupakan proyek Ujian Akhir Semester (UAS) mata kuliah Pemrograman Basis Data dengan studi kasus Sistem Nota Transaksi Coffee Shop.
 
-Normalisasi hingga Third Normal Form (3NF)
+Proyek ini berfokus pada perancangan dan implementasi basis data relasional yang digunakan untuk mencatat transaksi penjualan pada coffee shop secara terstruktur, akurat, dan terorganisir.
 
-Query SQL lanjutan
+Seluruh implementasi dilakukan menggunakan MySQL, dengan menerapkan:
+
+📐 Entity Relationship Diagram (ERD)
+
+🧩 Normalisasi database hingga 3NF
+
+⚙️ Query SQL lanjutan untuk analisis data transaksi
 
 🎯 Tujuan Proyek
 
-Tujuan dari proyek Nota Coffee Shop ini adalah:
+Proyek Nota Coffee Shop ini dikembangkan dengan tujuan:
 
-✅ Menerapkan konsep dasar Pemrograman Basis Data pada studi kasus nyata
+☑️ Mengimplementasikan konsep Pemrograman Basis Data dalam kasus nyata
 
-✅ Merancang struktur database yang terstruktur dan ter-normalisasi hingga 3NF
+☑️ Merancang database yang rapi, konsisten, dan ter-normalisasi (3NF)
 
-✅ Mengimplementasikan DDL, DML, dan TCL dalam pengelolaan basis data
+☑️ Menggunakan DDL, DML, dan TCL secara tepat
 
-✅ Membangun relasi antar tabel menggunakan Primary Key dan Foreign Key
+☑️ Menerapkan Primary Key & Foreign Key dalam relasi antar tabel
 
-✅ Menggunakan query JOIN, GROUP BY, HAVING, serta fungsi agregasi
+☑️ Mengolah data menggunakan JOIN, GROUP BY, HAVING, dan fungsi agregasi
 
-✅ Menjadi sarana pembelajaran akademik dalam memahami basis data relasional
+☑️ Menjadi media pembelajaran akademik dalam memahami database relasional
 
 🗄️ Struktur Database
 
-Database yang digunakan bernama dbnota, yang terdiri dari tabel-tabel utama berikut:
+Database yang digunakan bernama dbnota, terdiri dari tabel-tabel utama berikut:
 
-📦 barang → menyimpan data makanan dan minuman
-
-🍽️ layanan → menyimpan jenis layanan (dine in, take away, dll)
-
-👩‍🍳 waitress → menyimpan data pelayan
-
-🧾 transaksi → menyimpan data transaksi penjualan
-
-📄 detail_transaksi → menyimpan rincian barang dalam setiap transaksi
-
+Tabel	Deskripsi
+📦 barang	Menyimpan data makanan dan minuman
+🍽️ layanan	Menyimpan jenis layanan (Dine In, Take Away, dll)
+👩‍🍳 waitress	Menyimpan data pelayan
+🧾 transaksi	Menyimpan data transaksi penjualan
+📄 detail_transaksi	Menyimpan detail item pada setiap transaksi
 🔗 Relasi Antar Tabel
 
-Relasi yang diterapkan dalam database Nota Coffee Shop meliputi:
+Relasi dalam sistem Nota Coffee Shop dirancang sebagai berikut:
 
-🔹 Barang – Detail_Transaksi : One to Many (1:N)
+🔹 Barang → Detail_Transaksi : One to Many (1:N)
 
-🔹 Transaksi – Detail_Transaksi : One to Many (1:N)
+🔹 Transaksi → Detail_Transaksi : One to Many (1:N)
 
-🔹 Waitress – Transaksi : One to Many (1:N)
+🔹 Waitress → Transaksi : One to Many (1:N)
 
-🔹 Layanan – Transaksi : One to Many (1:N)
+🔹 Layanan → Transaksi : One to Many (1:N)
 
-Relasi ini dibangun menggunakan Primary Key dan Foreign Key sesuai dengan rancangan ERD.
+📌 Seluruh relasi dibangun menggunakan Primary Key dan Foreign Key sesuai dengan desain ERD.
 
 💻 Materi SQL yang Diterapkan
 🏗️ Data Definition Language (DDL)
@@ -66,7 +65,9 @@ CREATE DATABASE
 
 CREATE TABLE
 
-PRIMARY KEY dan FOREIGN KEY
+PRIMARY KEY
+
+FOREIGN KEY
 
 ✏️ Data Manipulation Language (DML)
 
@@ -86,7 +87,7 @@ COMMIT
 
 ROLLBACK
 
-📊 Query Lanjutan
+📊 Query SQL Lanjutan
 
 JOIN (Inner Join, Left Join, Right Join)
 
@@ -94,7 +95,7 @@ GROUP BY
 
 HAVING
 
-Fungsi agregasi (COUNT, SUM)
+Fungsi agregasi: COUNT(), SUM()
 
 🛠️ Tools yang Digunakan
 
@@ -108,29 +109,26 @@ Fungsi agregasi (COUNT, SUM)
 
 ▶️ Cara Menjalankan Proyek
 
-🔹 Buka MySQL Workbench
-
-🔹 Jalankan script SQL untuk membuat database dan tabel
-
-🔹 Pastikan database dbnota berhasil dibuat
-
-🔹 Jalankan query DML dan query lanjutan untuk melihat hasil transaksi
-
-🔹 Gunakan phpMyAdmin untuk memverifikasi data secara visual
+1️⃣ Buka MySQL Workbench
+2️⃣ Jalankan script SQL untuk membuat database dan tabel
+3️⃣ Pastikan database dbnota berhasil dibuat
+4️⃣ Jalankan query DML dan query lanjutan
+5️⃣ Verifikasi data menggunakan phpMyAdmin
 
 📂 Repository GitHub
 
-Repository GitHub digunakan sebagai dokumentasi proyek UAS Pemrograman Basis Data, yang menyimpan:
+Repository GitHub digunakan sebagai pusat dokumentasi proyek yang berisi:
 
 📄 Script SQL
 
-📐 ERD
+📐 Entity Relationship Diagram (ERD)
 
 📊 Hasil implementasi query
 
-📝 Catatan
+⚠️ Catatan Penting
 
-📌 Proyek ini dibuat khusus untuk keperluan akademik dan pembelajaran SQL, tanpa membahas antarmuka pengguna maupun aspek keamanan sistem secara mendalam.
+📌 Proyek ini dibuat khusus untuk keperluan akademik dan pembelajaran SQL.
+📌 Tidak membahas antarmuka pengguna (UI) maupun keamanan sistem secara mendalam.
 
 👨‍🏫 Dosen Pengampu
 
